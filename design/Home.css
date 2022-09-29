@@ -1,0 +1,953 @@
+*{
+    box-sizing: border-box;
+}
+
+.front_page {
+    box-sizing: border-box;
+    margin: 0px 0px;
+}
+
+ul.comapny {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.titel{
+    background-color: rgb(22,51,76);
+    color: aliceblue
+
+}
+
+li#schedule {
+    padding: 32px;
+    list-style-type: none;}
+
+
+    button.p {
+        font-size: 25px;
+        border: 2px solid white;
+        color: #e31237;
+        padding: 10px;
+        background-image: linear-gradient(45deg, #148989, transparent);
+    }
+
+
+    li#prop {
+        list-style-type: none;
+        padding: 25px;
+        color: #8ad00b;
+        text-decoration: underline;
+        font-size: 19px;
+    }
+/* 
+    .sub-container-2 {
+        background-image: url(house-g992849fae_640.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100% 26em;
+    } */
+
+    .sub-container-2 {
+        background-image: url(house-g992849fae_640.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1000px;
+        /* background-color: bisque; */
+        background-size: 100% 56em;
+        opacity: 0.7;
+        margin-top: -25px;
+    }
+
+
+    
+
+   
+    .form {
+      
+        max-width: 100%;
+        display: grid;
+        position: relative;
+        grid-template-columns: auto auto;
+        column-gap: 57px;
+        justify-content: center;
+        top: 17%;
+        
+    }
+
+        form {
+            width: fit-content;
+            display: grid;
+            grid-template-columns: 22em 22em;
+            grid-template-rows: 6em 24em 6em;
+            background-color: aliceblue;
+            border: 2px solid beige;
+            border-radius: 12px;
+    
+        }
+
+
+
+
+
+        h2 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            font-size: 42px;
+            text-align: center;
+        }
+
+        input[type="text"] {
+            width: 18em;
+            height: 3em;
+            font-size: 16px;
+        }
+
+        ul.contact {
+            font-size: 24px;
+            font-weight: 900;
+            /* margin: -35px; */
+        }
+
+        ul {
+            font-size: 24px;
+            font-weight: 900;
+            /* margin: -35px; */
+        }
+
+        li {
+            padding: 12px;
+            list-style-type: none;
+        }
+
+    
+        button{
+         
+            font-weight: 800;
+        }
+
+
+
+.contact-2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    top: -27px;
+    
+}
+        button.submit {
+           
+            background-color: rgba(192,81,28,1);
+        
+            color: #fff;
+            font-size: 25px;
+            border-radius: 10px;
+            padding: 28px 132px;
+        }
+
+        h1 {
+            text-align: end;
+            font-size: 60px;
+            color: whitesmoke;
+        }
+
+        .full {
+            color: white;
+            font-size: 35px;
+            text-align: end;
+        }
+
+
+
+        .exterior {
+            display: flex;
+            flex: row;
+         
+            justify-items: center;
+            justify-content: center;
+            flex-direction: row;
+            margin: 0px auto;
+            column-gap: 109px;
+        }
+
+        article.remolding {
+            font-family: 'Patrick Hand', cursive;
+
+            width: 33%;
+            }
+
+            p.det {
+                color: #252c37;
+                text-align: start;
+                font-size: 35px;
+                line-height: 41px;
+            }
+
+
+        section {
+            display: flex;
+            flex-direction: column}
+
+            button.contactus {
+                
+                padding: 28px 132px;
+                font-size: 25px;
+                border-radius: 10px;
+                background-color: rgba(192,81,28,1);
+                color: #fff;
+            }
+
+
+            h2.ex {
+                text-decoration-line: underline;
+                font-size: 70px;
+                text-align: left;
+                text-decoration-thickness: 7px;
+                text-decoration-color: brown;
+                text-decoration-style: double;
+                text-underline-position: right;
+            }
+
+            img {
+                width: 600px;
+                
+                padding: 19px;
+            }
+            .container-3 {
+                background-color: rgb(22,51,76);
+            }
+
+            .custome {
+                display: flex;
+                flex-direction: row;
+                margin: 73px auto;
+                column-gap: 50px;
+                width: 50%;
+                font-family: 'Patrick Hand', cursive;
+                justify-items: center;
+                justify-content: center;
+                align-content: center;
+            }
+
+            h2.ex-1 {
+                text-align: center;
+                font-size: 75px;
+                text-decoration-line: underline;
+                text-decoration-color: brown;
+                color: #e7e7f0;
+                text-decoration-thickness: 10px;
+                text-decoration-style: double;}
+
+
+
+                p.det-2{
+                    font-size: 35px;
+                    line-height: 35px;
+                    color: #e7e7f0;
+                }
+
+
+
+                .container-4 {
+                    background-color: rgb(22,51,76);
+                    margin-top: 50px;
+                }
+                
+                .industrial {
+                    display: grid;
+                    font-size: 35px;
+                    justify-content: center;
+                    width: 52%;
+                    padding: 5em 0px;
+                    margin: 0px auto;
+                    color: white;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 1fr 1fr 377px;
+                    column-gap: 50px;
+                }
+                
+
+                h3.ex-3 {
+                    grid-column-start: 1;
+                    grid-column-end: 3;
+                    text-decoration-style: double;
+                    text-decoration-line: underline;
+                    text-decoration-color: brown;
+                    text-decoration-thickness
+                    :2px ;
+                    padding: 2px;
+                    font-size: 2em;
+                    text-align: center;
+                    text-decoration-thickness: 5px;
+                    line-height: 2;
+                }
+                section.one {
+                    grid-row-start: 2;
+                    grid-row-end: 4;
+                }
+
+
+                    section.one {
+                        background: white;
+                        grid-row-start: 2;
+                        text-align: justify;
+                        border: 2px solid bisque;
+                        grid-row-end: 4;
+                        color: black;
+                        height: fit-content;
+                        line-height: 2;
+                        font-size: 29px;
+                        color: rgb(22,51,76);
+                        font-weight: 400;
+                        border-radius: 27px;
+                        padding: 44px;
+                    }
+
+                    section.two {
+                        background: white;
+                        grid-row-start: 2;
+                        height: fit-content;
+                        text-align: justify;
+                        border: 2px solid bisque;
+                        grid-row-end: 3;
+                        color: black;
+                        line-height: 2;
+                        font-size: 29px;
+                        color: rgb(22,51,76);
+                        font-weight: 400;
+                        border-radius: 27px;
+                        padding: 44px;
+                    }
+
+
+                    section.three {
+                        grid-column-start: 2;
+                        grid-column-end: 3;
+                        padding: 44px;
+                        height: 9em;
+                        line-height: 64px;
+                        border: 2px solid ;
+                        border-radius: 27px;
+                        color: rgb(22,51,76);
+                        background: white;
+                    }
+
+                    button.schedule {
+                        padding: 22px 70px;
+                        font-size: 30px;
+                        display: flex;
+                        flex-direction: row;
+                        background-color: rgba(192,81,28,1);
+                        color: #fff;
+                        margin: -60px auto;
+                       border-radius: 10px;
+                       font-weight: 700;
+                       position: relative;
+                       top: -2em;
+                    }
+
+
+
+                    @media only screen and (max-width: 1200px) {
+
+
+                        .front_page {
+                            box-sizing: border-box;
+                            margin: 0px 0px;
+                        }
+
+                        .container-2 {
+                            display: block;
+                            margin: 0px 0px;
+                        }
+
+                        .sub-container-2{
+                            margin-top: 0px;
+                            background-size: 100% 61em;
+                        }
+
+                       
+                     h1{
+                        font-size: 43px;
+
+                     }
+
+                     button.p{
+                        font-size: 15px;
+                     }
+
+                     .form{
+                        display: flex;
+                        
+                        flex-direction: column;
+                        top:9%
+                     }
+
+                     .articel {
+                       
+                        margin: 0px auto;
+                        width: 71%;
+                    }
+
+                    h1.luxury {
+                        text-align: center;
+                    }
+
+                    .full {
+                       
+                        text-align: center;
+                    }
+
+                    .form-2 {
+                        width: 100%;
+                        margin: 0px auto;
+                    }
+                    form {
+                        width: fit-content;
+                        padding: 17px;
+                        margin: 0px auto;
+                        grid-template-columns: auto auto;
+                        grid-template-rows: 6em 16em 6em;
+
+                    }
+
+                    h2{
+                        font-size: 25px;
+                    }
+
+
+                    ul.contact {
+                        width: fit-content;
+                        font-size: 21px;
+                        font-weight: 900;
+                        text-align: justify;
+                        margin: -12px;
+                    }
+
+                    ul {
+                        width: fit-content;
+                        font-size: 21px;
+                        text-align: justify;
+                        font-weight: 900;
+                        margin: -12px;
+                    }
+                }
+
+ 
+
+                @media only screen and ((max-width: 800px)){
+                    
+
+                    .front_page {
+                        box-sizing: border-box;
+                        margin: 0px 0px;
+                    }
+                    
+
+                    ul.comapny {
+                        display: list-item;
+                        margin: 0px 42px;
+                        list-style-type: none;
+                    }
+
+                    h1.by {
+                        font-size: 38px;
+                    }
+
+                    li#prop {
+                        display: inline-block;
+                      
+                        padding: 10px 14px;
+                    }
+
+                    button.p {
+                        margin: -1px -1px;
+                        padding: 11px 1px;
+                        font-size: 27px;
+                        font-size: 24px;
+                    }
+                    
+                    li#schedule {
+                        display: inline-block;
+                        margin: 0px 5em;
+                    }
+
+                    .sub-container-2{
+                          background-size: 100% 93em;
+                          height: 93em;
+                    }
+                        form {
+                            display: flex;
+                            flex-direction: column;
+                            width: fit-content;
+                            row-gap: 31px;
+                            padding: 32px;
+                            margin-top: 66px;
+                        }
+
+                        .articel {
+                            margin: -60px auto;
+                            width: 100%;
+                        }
+
+                        .form{
+                            padding: 0px 14px;
+                            width: fit-content;
+                          }
+                        
+
+
+                        button.submit {
+                            position: relative;
+                             top: -7px;
+                            padding: 17px 6em;
+                        }
+
+                        ul.contact{
+                            text-align: justify;
+                            padding: 0px;
+                        }
+
+                        input[type="text"] {
+                            width: 39em;
+                            height: 4em;
+                            border: 2px solid grey;
+                        }
+
+                        li {
+                            margin: 7px 37px;}
+
+
+                         ul{
+                            padding: 0px;
+                         }
+                         
+                         article.remolding {
+                            width: 100%;
+                            padding: 10px;
+                        }
+
+                        p.det-2 {
+                            line-height: 47px;
+                        }
+
+
+                        p.det {
+                            text-align: justify;
+                            padding: 13px;
+                            line-height: 47px;
+                        }
+
+                        .exterior {
+                            display: block;
+                        }
+                        h2.ex {
+                            font-size: 50px;
+                            text-align: center;
+                        }
+                        
+                        
+
+                        button.contactus {
+                            margin: 0px 6em;
+                            padding: 21px 60px;
+                        }
+                        img {
+                            padding: 19px;
+                        }
+                        h2.ex-1 {
+                            font-size: 50px;
+                        }
+
+                        .custome {
+                            display: flex;
+                            width: 100%;
+                            flex-direction: column-reverse;
+                        }
+
+                        article.homes {
+                            padding: 14px;
+                            text-align: justify;
+                            line-height: 36px;
+                        }
+
+                        img {
+                            padding: 19px;
+                            width: 99%;
+                        }
+
+                        .industrial {
+                            display: block;
+                            width: 100%;
+                        }
+                        section.one {
+                            margin: 16px;
+                        }
+
+                        section.two {
+                            margin: 16px;
+                        }
+
+                        section.three {
+                            text-align: center;
+                            margin: 16px;
+                        }
+
+                        h3.ex-3 {
+                            font-size: 67px;
+                            line-height: 96px;
+                        }
+                    }
+
+
+                
+
+                    @media only screen and (max-width: 600px){
+
+
+                              
+
+                    ul.comapny {
+                        display: list-item;
+                        margin: 0px 42px;
+                        list-style-type: none;
+                    }
+                    h1.by{
+                        font-size: 30px;
+                    }
+
+
+                    li#prop {
+                        padding: 10px 14px;
+                    }
+                    
+                    li#schedule {
+                        padding: 20px 0px;}
+
+                        button.p {
+                            font-size: 18px;
+                        }
+
+
+                    .sub-container-2{
+                    background-size: 100% 93em;
+                    height: 93em;
+                    }
+                        form {
+                            display: flex;
+                            flex-direction: column;
+                            width: fit-content;
+                            row-gap: 31px;
+                            padding: 0px;
+                            margin-top: 66px;
+                        }
+
+                        .articel {
+                            margin: -60px auto;
+                            width: 71%;
+                        }
+
+                        .form{
+                            padding: 0px 14px;
+                            width: fit-content;
+                          }
+                        
+
+
+                        button.submit {
+                            position: relative;
+                             top: -7px;
+                            padding: 17px 4em;
+                        }
+
+                        ul.contact{
+                            text-align: justify;
+                            padding: 0px;
+                        }
+
+                        input[type="text"] {
+                            width: 24em;
+                            height: 4em;
+                        }
+
+                        li {
+                            margin: 7px 37px;}
+
+
+                         ul{
+                            padding: 0px;
+                         }
+                         
+                         article.remolding {
+                            width: 100%;
+                            padding: 10px;
+                        }
+                        
+   
+                        p.det {
+                            font-size: 31px;
+                            line-height: 50px;
+                            text-align: justify;
+                            padding: 13px;
+                        }
+
+                        p.det-2 {
+                            font-size: 31px;
+                            line-height: 50px;
+                            text-align: justify;
+                            padding: 13px;
+                        }
+
+                        .exterior {
+                            display: block;
+                        }
+                        h2.ex {
+                            font-size: 50px;
+                            text-align: center;
+                        }
+
+
+                        button.contactus {
+                            margin: 0px 5em;
+                            padding: 21px 60px;
+                        }
+                        img {
+                            padding: 19px;
+                        }
+                        h2.ex-1 {
+                            font-size: 50px;
+                        }
+
+                        .custome {
+                            display: flex;
+                            width: 100%;
+                            flex-direction: column-reverse;
+                        }
+
+                        article.homes {
+                            padding: 14px;
+                            text-align: justify;
+                            line-height: 36px;
+                        }
+
+                        img {
+                            padding: 19px;
+                            width: 101%;
+                        }
+
+                        .industrial {
+                            display: block;
+                            width: 100%;
+                        }
+                        section.one {
+                            margin: 16px;
+                        }
+
+                        section.two {
+                            margin: 16px;
+                        }
+
+                        section.three {
+                            margin: 16px;
+                        }
+
+                        h3.ex-3 {
+                            font-size: 67px;
+                            line-height: 96px;
+                        }
+
+                        button.schedule {
+                            padding: 22px 41px}
+                    }
+
+
+
+                    @media only screen and (max-width: 518px){
+                        h1.by {
+                            font-size: 20px;
+                        }
+                    }
+
+
+
+                    @media only screen and (max-width: 500px)  {
+
+                        h1.by {
+                            font-size: 16px;
+                        }
+
+                        li#schedule {
+                            margin: 0px 5px;
+                        }
+
+                        .articel {
+                            margin: -148px auto 0px auto;}
+
+                            form {
+                                width: 23em;
+                            }
+                            h2.ex {
+                                font-size: 46px;
+                            }
+
+                            p.det {
+                                font-size: 24px;
+                                line-height: 44px;
+                            }
+
+                            p.det-2 {
+                                font-size: 24px;
+                                line-height: 44px;
+                            }
+
+                            input[type="text"] {
+                                width: 22em;
+                            }
+
+                            button.submit {
+                                padding: 17px 3em;
+                            }
+
+                            button.contactus {
+                                margin: 0px 3em;
+                            }
+                            h3.ex-3 {
+                                font-size: 52px;
+                                line-height: 84px;
+                                margin-top: -100px;
+                            }
+                            
+
+                            section.three {
+                                padding: 22px;
+                                font-size: 20px;
+                                line-height: 36px;
+                            }
+
+                            section.two {
+                                padding: 22px;
+                                font-size: 20px;
+                                line-height: 36px;
+                            }
+
+                            section.one {
+                                padding: 22px;
+                                font-size: 20px;
+                                line-height: 36px;
+                            }
+                            
+                            button.schedule {
+                                padding: 22px 1px;
+                                font-size: 25px;
+                            }
+
+                    }
+
+                    @media only screen and (max-width: 400px)  {
+                       
+                       
+                        li#prop {
+                            margin: 0px 0px;
+                            padding: 0px 0px;
+                           
+                        }
+
+                        h1.by {
+                            font-size: 20px;
+                            margin-top: 22px;
+                        }
+                       
+                        li#schedule {
+                            width: fit-content;
+                            font-size: 1px;
+                        }
+
+                        input[type="text"] {
+                            width: 20em;
+                        }
+
+                        form {
+                           width: 100%;
+                        }
+
+                        h1 {
+                            font-size: 32px;
+                        }
+
+                        .full {
+                           
+                            font-size: 29px;
+                    }
+
+                    h2.ex {
+                        font-size: 42px;}
+
+
+                        p.det {
+                            font-size: 20px;
+                            line-height: 36px;
+                        }
+                        p.det-2 {
+                            font-size: 20px;
+                            line-height: 36px;
+                        }
+
+
+                        article.remolding {
+                            width: 100%;
+                            margin-top: 0px;
+                        }
+
+                            button.contactus {
+                                margin: 0px 2em;
+                                font-size: 17px;
+                                padding: 12px ;
+                            }
+
+                            button.schedule {
+                                margin-left:  2em;
+                                margin-right: 2em;
+                                font-size: 17px;
+                                position: relative;
+                                  top: -5em;
+                                 left: 2em;
+                              }
+
+                              section.three {
+                                padding: 22px;
+                                font-size: 20px;
+                                line-height: 36px;
+                            }
+
+                            section.two {
+                                padding: 22px;
+                                font-size: 20px;
+                                line-height: 36px;
+                            }
+
+                            section.one {
+                                padding: 22px;
+                                font-size: 20px;
+                                line-height: 36px;
+                            }
+                            h3.ex-3 {
+                                font-size: 45px;
+                                line-height: 72px;
+                                margin-top: -84px;
+                            }
+
+                            button.submit {
+                                padding: 12px 3em;
+                                font-size: 24px;
+                            }
+                            }
+                
+
+
+
+
+
+
+
+
+
